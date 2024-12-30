@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Market_re</string>
+    <string name="account" > Аккаунт</string>
+
+    <string name="back" > назад </string>
+
+    <string name="accessories" > Аксессуары </string>
+    <string name="watch" > Часы с кожаным ремешком</string>
+    <string name="watch_description" > Элегантные часы с кожаным ремешком, подходят под любой стиль.</string>
+    <string name="watch_image_1" > https://img.joomcdn.net/1ae2ac9705f35c717ef92f0f7c9ad7ee19590b6c_original.jpeg</string>
+    <string name="watch_image_2" > https://img.joomcdn.net/134632365b17f9c2bdb3c6339a41874aae3f24e8_original.jpeg</string>
+    <string name="wallet" > Кожаный кошелек</string>
+    <string name="wallet_description" > Стильный и практичный кошелек из натуральной кожи</string>
+    <string name="wallet_image_1" >https://avatars.mds.yandex.net/i?id=3903335484f5afd6bb8b13f7bcfbca591a357efb-10577272-images-thumbs&amp;n=13</string>
+    <string name="wallet_image_2" >https://sun9-35.userapi.com/impf/c851320/v851320132/4df56/YM0G0P-xN6o.jpg?size=604x401&amp;quality=96&amp;sign=68e0e96441e1192a85bc59399f67fe73&amp;c_uniq_tag=_ZeH_L5wwopYfrUGdsjaqV-kW3aqXuSmjn9pzCeGo8Q&amp;type=album</string>
+    <string name="sunglasses" >Солнечные очки</string>
+    <string name="sunglasses_description" >Современные солнечные очки для защиты от ультрафиолета.</string>
+    <string name="sunglasses_image_1" >https://cdn1.ozone.ru/s3/multimedia-j/6344800855.jpg</string>
+    <string name="sunglasses_image_2" >https://avatars.mds.yandex.net/i?id=b3746e2f6e80fbf4104253c0a3769ca7_sr-8410613-images-thumbs&amp;n=13</string>
+    <string name="belt" >Ремень из натуральной кожи</string>
+    <string name="belt_description" >Качественный ремень из натуральной кожи, идеально подходит для делового стиля.</string>
+    <string name="belt_image_1" >https://cdn1.ozone.ru/s3/multimedia-v/6181585363.jpg</string>
+    <string name="belt_image_2" >https://www.modernbag.ru/published/publicdata/MODERNBAGS/attachments/SC/products_pictures/BL-L-8203%20%282%29_enl.jpg</string>
+
+    <string name="clothes" > Одежда</string>
+    <string name="jacket" > Кожаная куртка</string>
+    <string name="jacket_description" > Стильная кожаная куртка для холодной погоды.</string>
+    <string name="jacket_image_1" > https://avatars.mds.yandex.net/i?id=84915e91697235ce8a1afbd2b7883bb55be33880-11801546-images-thumbs&amp;n=13</string>
+    <string name="jacket_image_2" > https://ladyneeds.ru/wp-content/uploads/2021/04/kurtki-osen.jpg</string>
+    <string name="sweater" > Теплый свитер</string>
+    <string name="sweater_description" > Мягкий и уютный свитер, идеален для зимних прогулок.</string>
+    <string name="sweater_image_1" > https://i.pinimg.com/736x/3e/8a/8f/3e8a8f4af2feb212c2cd73cbaacb9e42.jpg</string>
+    <string name="sweater_image_2" > https://i.pinimg.com/originals/33/85/d3/3385d3901419f3f2a012e5b59e8ccd6f.jpg</string>
+    <string name="jeans" > Джинсы slim-fit</string>
+    <string name="jeans_description" >Удобные джинсы с хорошей посадкой, подходят для повседневной носки.</string>
+    <string name="jeans_image_1" > https://oreol.com/img/men/10079_1.jpg</string>
+    <string name="jeans_image_2" > https://static24.tgcnt.ru/posts/_0/12/1201c02ad1610b63070c941fa203733a.jpg</string>
+    <string name="winterPark" > Парка зимняя </string>
+    <string name="winterPark_description" > Теплая парка для зимних прогулок, защищает от холода и ветра. </string>
+    <string name="winterPark_image_1" > https://i.pinimg.com/736x/fc/39/3e/fc393e4ca73088b3d8a9ae8e947f4dc0.jpg </string>
+    <string name="winterPark_image_2" >https://vpinfo.ru/images/products/4974/4f5623260e1000.jpg </string>
+
+    <string name="footwear" > Обувь</string>
+    <string name="nike" > Кроссовки Nike</string>
+    <string name="nike_description" > Комфортные спортивные кроссовки для активных людей.</string>
+    <string name="nike_image_1" >https://екатеринбург.вокруге.рф/static/item/14.--20-luchshih-krossovok-dlya-bega-v-2024-godu-2.jpg</string>
+    <string name="nike_image_2" > https://skiline.ru/images/glideride.jpg</string>
+    <string name="shoes" > Туфли кожаные </string>
+    <string name="shoes_description" > Элегантные кожаные туфли для деловых встреч и торжеств. </string>
+    <string name="shoes_image_1" > https://avatars.mds.yandex.net/i?id=004fff8247bffb8c9d4b5dac42c04ff7_l-10240278-images-thumbs&amp;n=13 </string>
+    <string name="shoes_image_2" > https://avatars.mds.yandex.net/i?id=c7aa361f2ba0e20ff04b70dd270b3d40313ddf1d30af0165-12693483-images-thumbs&amp;n=13 </string>
+    <string name="boots" > Ботинки зимние </string>
+    <string name="boots_description" > Удобные зимние ботинки с утеплителем для холодной погоды.</string>
+    <string name="boots_image_1" > https://avatars.mds.yandex.net/i?id=db967186c7b116c04a60a68e5bf6f850_l-5644622-images-thumbs&amp;n=13 </string>
+    <string name="boots_image_2" > https://i.pinimg.com/originals/f5/11/49/f511490c276acb8dc8c4817fe87e0731.jpg </string>
+    <string name="sandals" > Сандалии летние</string>
+    <string name="sandals_description" > Легкие летние сандалии для жаркой погоды.</string>
+    <string name="sandals_image_1" > https://avatars.mds.yandex.net/i?id=2a00000179ed833faaf3367a098c12cda478-4843806-images-thumbs&amp;n=13</string>
+    <string name="sandals_image_2" > https://img.alicdn.com/imgextra/TB1LH2XgiOYBuNjSsD4L6TSkFXa</string>
+
+    <string name="catalog" > Каталог</string>
+    <string name="del_product" > Удалить товар?</string>
+    <string name="delete" > Удалить </string>
+    <string name="delete_question" > Удалить товар? </string>
+    <string name="delete_question_sure" > Удалить товар? </string>
+
+    <string name="cancel" > Отмена </string>
+    <string name="favourites" > Избранное </string>
+    <string name="added_to_cart" > Товар добавлен в корзину </string>
+    <string name="buy" > Купить </string>
+    <string name="purchases" > Покупки </string>
+    <string name="slogan" > Мода для каждого дня </string>
+    <string name="purchases_empty">Список покупок пуст</string>
+</resources>
