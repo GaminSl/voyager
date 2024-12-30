@@ -1,3 +1,5 @@
+package com.example.market_re.features
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -16,6 +18,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.unit.dp
+import cafe.adriel.voyager.core.screen.Screen
+import cafe.adriel.voyager.navigator.Navigator
 import cafe.adriel.voyager.navigator.tab.Tab
 import cafe.adriel.voyager.navigator.tab.TabOptions
 import com.example.market_re.ui.theme.Color4
@@ -42,7 +46,13 @@ object HomeTab : Tab {
 
     @Composable
     override fun Content() {
+        Navigator(HomeScreen())
+    }
 
+}
+class HomeScreen(): Screen{
+    @Composable
+    override fun Content() {
         Column(
             modifier = Modifier
                 .fillMaxSize()
@@ -70,4 +80,5 @@ object HomeTab : Tab {
             }
         }
     }
+
 }

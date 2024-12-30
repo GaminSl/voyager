@@ -24,6 +24,11 @@ import cafe.adriel.voyager.navigator.tab.CurrentTab
 import cafe.adriel.voyager.navigator.tab.LocalTabNavigator
 import cafe.adriel.voyager.navigator.tab.Tab
 import cafe.adriel.voyager.navigator.tab.TabNavigator
+import com.example.market_re.features.AccountTab
+import com.example.market_re.features.CatalogTab
+import com.example.market_re.features.FavoriteTab
+import com.example.market_re.features.HomeTab
+import com.example.market_re.features.ShopTab
 import com.example.market_re.ui.theme.PurpleGrey40
 
 class MainActivity : ComponentActivity() {
