@@ -3,7 +3,9 @@ package com.example.market_re.features
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ShoppingCart
@@ -57,7 +59,7 @@ class CatalogScreen(): Screen{
             topBar = {
                 HeaderMenu(
                     text = stringResource(R.string.catalog),
-                    onClick = { navigator.push(ClothingScreen()) }
+                    onClick = { }
                 )
             },
             content = { paddingValues ->
@@ -94,11 +96,16 @@ class CatalogScreen(): Screen{
 class ClothingScreen(): Screen{
     @Composable
     override fun Content() {
+        val navigator = LocalNavigator.currentOrThrow
         Column(
             modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
+            Spacer(Modifier.height(20.dp))
+            HeaderMenu(
+                text = "Одежда",
+                onClick = { navigator.pop() }
+            )
             Text("Одежда")
         }
     }
@@ -108,12 +115,17 @@ class ClothingScreen(): Screen{
 class ShoesScreen(): Screen{
     @Composable
     override fun Content() {
+        val navigator = LocalNavigator.currentOrThrow
         Column(
             modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Одежда")
+            Spacer(Modifier.height(20.dp))
+            HeaderMenu(
+                text = "Обувь",
+                onClick = { navigator.pop() }
+            )
+            Text("Обувь")
         }
     }
 }
@@ -121,12 +133,17 @@ class ShoesScreen(): Screen{
 class AccessoriesScreen(): Screen{
     @Composable
     override fun Content() {
+        val navigator = LocalNavigator.currentOrThrow
         Column(
             modifier = Modifier.fillMaxSize(),
-            horizontalAlignment = Alignment.CenterHorizontally,
-            verticalArrangement = Arrangement.Center
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Text("Одежда")
+            Spacer(Modifier.height(20.dp))
+            HeaderMenu(
+                text = "Аксессуары",
+                onClick = { navigator.pop() }
+            )
+            Text("Аксессуары")
         }
     }
 }
